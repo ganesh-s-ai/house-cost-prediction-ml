@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🏠 House Construction Budget Predictor</h1>
+
+    <div class="form-container">
+        <label>Square Feet:</label>
+        <input id="sqft" type="number">
+
+        <label>Rooms:</label>
+        <input id="rooms" type="number">
+
+        <label>Bathrooms:</label>
+        <input id="bath" type="number">
+
+        <label>Kitchen Count:</label>
+        <input id="kitchen" type="number">
+
+        <label>Sitout (0 or 1):</label>
+        <input id="sitout" type="number">
+
+        <label>Floors:</label>
+        <input id="floors" type="number">
+
+        <button onclick="predictBudget()">Predict Budget</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
